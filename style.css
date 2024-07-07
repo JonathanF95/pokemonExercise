@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:weight@400;700&display=swap');
+
+/* Styles */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+    height: 100vh;
+    margin: 0;
+}
+
+.pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.active{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
